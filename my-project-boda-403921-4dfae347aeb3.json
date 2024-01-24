@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "my-project-boda-403921",
+  "private_key_id": "4dfae347aeb3a825fea746630a7e868439e2083e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC80S1Srqfpr7df\nqNhjLThHRzmNqNS+xejAh7ro4YvaBBWmMoKBOdHdJiHPIItsZrHL6+aoNdzGhfA+\nHKPs7pqgcPieb1brzcEG8yATONeXdZ9ZCV4cfkCcW19OZbQ6nyL7ALBWo1VgWoyo\nCQG5RJZg/1hf7sJPP1tlZa9CfDQLOccL/Y2HpdP9iDkOMx1My2a5koUDKLhkyhxI\n19uvb041ssNuUKfLeEG/X8etbE97BnqF1x2LhRr2BmMh7uMyXXgfEgSeK3B7iXiX\nvAIZtCosgXRRoMdMoxemfrhfYitnFYG3G55zEKprsybD774CpDD8MJYrFd0keHzR\nrhatQa0rAgMBAAECggEASjDK5T0ZXzobDGxUsgt3nJJA7AeVqGwtO1FZwN22zPBj\n7UzVeJ9WddXg3PkFr49edyj3FcssN5kzP8STKKrMeRRKrD5FYhwTp35qcQMZuzqN\nZTfIEdwN2SIR/cT6nzoeTZAEudYt2tFZiUEYu0pW6EAM4oz3LppPeDUPO0mATZQ1\ndn3lR9qqxbTNDiNWJ3g/k8q8enBaN2mdlxGQ5G6mXNVDtcp/S1bVGoNofFf5EmF1\nD84zzPnpz24tFYdA0Q4SLSf//tbIz8Sv7z5XgrvDfineTrbLmlDinhbWVFsonC4V\nv8U4+CZRk8+7SLoMM+hzaDquiBEHRVRoUNjIaATG8QKBgQD1AJZrZk/cU9FS1+n4\nQvIi6hLbM3xNujhJympx5OnYzm+YYSf0ENa4GlligXBlgfnJP+ayJQuHLYNcerK6\n+Ofgx+aO4wcPcQ9AF7D+PNqsc8DqKRZxvYFGN/wxfjX7HcQtlBdajCQJf6/aHHB2\nAQW2IIFpGa4HoUP/6H3sxo/9kwKBgQDFSvHJqh6ZBwSz5kD9Z3jxS/3BwhrwLl0p\nrsfXGzhLuXD+EPHQoVQ4JFQ3WDfyGfNCEQdRgt7K2t+njBTvXeK3F0jqJV4kUEfc\nWCzoWqy2hHT7C/Kvf1w5aJww+W9DaQOHPKA6WD44Vmb7AuKEQuhNJBildduEr4lp\nGux9hRkRCQKBgQDwvJ8Q8PtPt1xbVqUjuERMYkwc7z4Y8f4VI7vsJc5Rpqaox+6G\nN3WEeP+TdzSFyW0zfoKkURo+vU3yNO4iIilWCZZWmGV7mtAtXhof9pO4GBVbAPx4\nzoiUArbfuvA3y0vUrUs1Qba3TqvwWTl3+hEuoEoIh58lCCTU9BGn8oPR2QKBgEpr\nj7MDUdFlfVei5ibwLgXPJWQ+JM0uoAPGIym34c9mnwGnQJ/zCwK2aXIK++d99G2a\nYMlVdVbNownfZFI6dvebd+yitdU61zB9rkrjUTzzz/CWvC+I+i/JjwlGPbsO1L7h\nlosLmETGCshqeSls15WppQZc47Y0RL/54PUkDKWJAoGBAKjN1qnsa0fc/yl9h9uZ\nLSNdFPf2PRd+4bCIV9zDbnZ7U7InnsNozN0Q6295Y28i6JrX6RDKLCzVXxbnGJnT\n5pSWoTSEuIjBpUKydw2SgmhcQ0bygst5ML9+6atp1ihtnEHC7GwYmphVBhRm/E3U\nnqZ2SHzIGbezJtCh7TpLdVxq\n-----END PRIVATE KEY-----\n",
+  "client_email": "boda-8@my-project-boda-403921.iam.gserviceaccount.com",
+  "client_id": "107800876853615716443",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/boda-8%40my-project-boda-403921.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

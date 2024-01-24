@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Segunda Sección</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            padding: 20px;
+        }
+        form {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        input[type="number"] {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            display: block;
+            margin: 10px auto;
+        }
+        .message-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 20px auto;
+            max-width: 300px;
+            text-align: center;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hola {{ nombre }}, aquí podrás confirmar tu asistencia a la boda</h1>
+    <p>No dejes ningún campo sin responder aunque sea cero</p>
+    <form action="{{ url_for('seccion_dos', codigo=codigo) }}" method="post">
+        <label for="infantil">¿Cuántos niños confirmas? (0 - {{ infantil_max }})</label><br>
+        <input type="number" id="infantil" name="infantil" min="0" max="{{ infantil_max }}" class="form-control" value="0"><br><br>
+
+        <label for="adultos">¿Cuántos adultos confirmas (incluyéndote)? (0 - {{ adultos_max }})</label><br>
+        <input type="number" id="adultos" name="adultos" min="0" max="{{ adultos_max }}" class="form-control" value="0"><br><br>
+
+        <input type="submit" value="Registrar Asistencia" class="btn btn-primary">
+    </form>
+    {% if message %}
+        <div class="message-box {% if message.startswith('Asistencia registrada') %}success{% else %}error{% endif %}">
+            {{ message }}
+        </div>
+    {% endif %}
+</body>
+</html>

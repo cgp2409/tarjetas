@@ -5,23 +5,56 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
         body {
+            margin: 0;
+            padding: 0;
+            background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2042508-jpeg.jpg") no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Lato', sans-serif;
+        }
+        .container {
             padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            max-width: 400px;
+            margin: 50px auto;
+            border-radius: 10px;
         }
         form {
-            max-width: 300px;
-            margin: 0 auto;
+            text-align: center;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
         }
         input[type="submit"] {
             display: block;
-            margin: 10px auto;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        label {
+            font-weight: bold;
+        }
+
+        /* Media Query para dispositivos móviles */
+        @media only screen and (max-width: 600px) {
+            .container {
+                max-width: 80%;
+                margin: 30px auto;
+            }
         }
     </style>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <form action="/" method="post">
-        <label for="codigo">¿Cuál es tu código?</label><br>
-        <input type="text" id="codigo" name="codigo" class="form-control"><br><br>
-        <input type="submit" value="Submit" class="btn btn-primary">
-    </form>
+    <div class="container">
+        <form action="/" method="post">
+            <label for="codigo">¿Cuál es tu código?</label><br>
+            <input type="text" id="codigo" name="codigo" class="form-control"><br><br>
+            <input type="submit" value="Aceptar" class="btn btn-primary">
+        </form>
+    </div>
 </body>
 </html>
